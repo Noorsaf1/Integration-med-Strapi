@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "computers",
+  "info": {
+    "name": "computers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Produktens_namn": {
+      "type": "string"
+    },
+    "beskrivning": {
+      "type": "string"
+    },
+    "tillverkare": {
+      "type": "string"
+    },
+    "pris": {
+      "type": "float"
+    },
+    "processor": {
+      "type": "string"
+    }
+  }
+}

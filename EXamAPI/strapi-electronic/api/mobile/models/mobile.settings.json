@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mobiles",
+  "info": {
+    "name": "mobile"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Produktens_namn": {
+      "type": "string"
+    },
+    "beskrivning": {
+      "type": "string"
+    },
+    "tillverkare": {
+      "type": "string"
+    },
+    "pris": {
+      "type": "float"
+    },
+    "skarmtyp": {
+      "type": "string"
+    }
+  }
+}

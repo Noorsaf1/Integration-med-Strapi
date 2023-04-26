@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ljuds",
+      "handler": "ljud.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ljuds/count",
+      "handler": "ljud.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ljuds/:id",
+      "handler": "ljud.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ljuds",
+      "handler": "ljud.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ljuds/:id",
+      "handler": "ljud.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ljuds/:id",
+      "handler": "ljud.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

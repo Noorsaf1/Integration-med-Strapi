@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "televisions",
+  "info": {
+    "name": "television"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Produktens_namn": {
+      "type": "string"
+    },
+    "beskrivning": {
+      "type": "string"
+    },
+    "tillverkare": {
+      "type": "string"
+    },
+    "pris": {
+      "type": "float"
+    },
+    "skarmstorlek": {
+      "type": "integer"
+    }
+  }
+}
